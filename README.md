@@ -2,13 +2,6 @@
 
 **Tiny Static Map** is a lightweight JavaScript library (~1 kB) that creates a static map image centered on a specified latitude and longitude. It leverages OpenStreetMap (OSM) tiles to render an arbitrarily-sized map in any container, with custom zoom levels.
 
-## Features
-
-- **Lightweight**: Only 1 kB in size.
-- **Flexible**: Supports any output dimensions and zoom levels.
-- **Center Precision**: Precisely centers the map on a specified latitude/longitude coordinate.
-- **No Dependencies**: Vanilla JavaScript, no external libraries required.
-
 ## Example Usage
 
 To include a static map on your webpage, create a container element, load `tiny-static-map.js`, and call `createStaticMap`:
